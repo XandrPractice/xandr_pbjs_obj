@@ -34,7 +34,6 @@ xandrpbjs.pbjsObj || (xandrpbjs.pbjsObj = function(){
         t.googletag.enableServices();
     }.bind(t)),
     t.refreshBid = function() {
-        debugger;
         self.pbjs.que.push(function() {
             self.pbjs.requestBids({
                 timeout: t.PREBID_TIMEOUT,
