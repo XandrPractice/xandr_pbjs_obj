@@ -43,6 +43,6 @@ xandrpbjs.pbjsObj || (xandrpbjs.pbjsObj = function(){
                     self.googletag.pubads().refresh([self.slot1]);
                 }
             });
-        });
+        }.bind(t));
     }
 })();
